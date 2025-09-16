@@ -20,8 +20,12 @@ ware).
 2.  **Configure for Arduino Nano Every**: In the Arduino IDE, go to **Tools > B
 oard** and select **Arduino Nano Every**.
 3.  **Open the Project**: Download this project as a ZIP file and unzip it. Ope
-n the `RetroComputer.ino` file in the Arduino IDE. This should also open all th
-e other necessary files (`.h` and `.cpp`).
+n the `RetroComputer.ino` file in the Arduino IDE.
+
+    *Note on Project Structure:* This is a multi-file Arduino project. When you
+ open `RetroComputer.ino`, the Arduino IDE should automatically open the other
+ `.h` and `.cpp` files in tabs. This is the standard way to organize larger Ardu
+ino sketches and makes the code easier to navigate and maintain.
 4.  **Upload the Code**: Connect your Arduino Nano Every to your computer and u
 pload the sketch.
 

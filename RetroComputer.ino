@@ -1,13 +1,11 @@
 #include "basic.h"
+#include "basic_interpreter.h"
 #include <string.h>
 
 #define CMD_BUF_SIZE 64
 
 char cmd_buf[CMD_BUF_SIZE];
 int cmd_len = 0;
-
-void setup_basic();
-int loop_basic();
 
 void setup() {
   Serial.begin(9600);
@@ -98,6 +96,7 @@ void command_basic() {
           break;
       }
   }
+  Serial.println("Leaving BASIC.");
 }
 
 void command_pinmode() {
